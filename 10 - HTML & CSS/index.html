@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    @media screen and (max-width: 600px) {nav navbar-nav navbar-right a {float: none; width: 100%;}}
+    img:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+    img {border-radius: 4px; padding: 5px; width: 50px;}
+</style>
+
+<body style="background-color: #BDD3DE">
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class = "container">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                <a class="navbar-brand" href="index.html">Lattitude</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="visualization1.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="visualization2.html">Humidity</a></li>  
+                            <li><a class="dropdown-item" href="visualization3.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="visualization4.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link" href="comparison.html">Comparison</a></li>
+                    <li><a class="nav-link" href="data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Project Intro + All Viz Container-->
+    <div class="container">
+        <div class="row">
+            <!--Project Intro-->
+            <section> 
+                <div class="col-md-8">
+                    <div class="thumbnail"> 
+                        <h4>Summary: Latitude vs. X</h4>  
+                        <hr>
+                        <a target="_blank" href="visualization1.html">
+                            <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature Scatter Plot" style="width:200px" class="pull-left">
+                        </a>
+                        <p>This project uses Python requests, APIs, and JSON traversals to track how weather changes as we approach the equator by specifically utilizing Python's Matplotlib library, Python's citypy library, the OpenWeatherMap API, and Jupyter Notebook to visualize the weather of 500+ cities across the world of varying distance from the equator.
+                        <br> 
+                        <br>
+                        The change in weather in relation to the equator is displayed in a series of scatter plots depicting the following relationships: Temperature (F) vs. Latitude, Humidity (%) vs. Latitude, Cloudiness (%) vs. Latitude, Wind Speed (mph) vs. Latitude
+                        </p>
+                    </div>
+                </div>
+            </section> 
+            <!--All Viz Thumbnails-->
+            <section>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <h4>Visualizations</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3 col-md-6">
+                                <article>
+                                    <a target="_blank" href="visualization1.html">
+                                        <img src="Resources/assets/images/Fig1.png" alt="Latitude vs Temperature Scatter Plot" style="width:200px">
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-sm-3 col-md-6">
+                                <article>
+                                    <a target="_blank" href="visualization2.html">
+                                        <img src="Resources/assets/images/Fig2.png" alt="Latitude vs Humidity Scatter Plot" style="width:200px">
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-sm-3 col-md-6">
+                                <article>
+                                    <a target="_blank" href="visualization3.html">
+                                        <img src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness Scatter Plot" style="width:200px">
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-sm-3 col-md-6">
+                                <article>
+                                    <a target="_blank" href="visualization4.html">
+                                        <img src="Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed Scatter Plot" style="width:200px">
+                                    </a>
+                                </article>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="navbar navbar-default navbar-static-bottom">
+        <div class = "container-fluid">
+            <div class="navbar-header">
+                <span>© 2018 Cassandra Nellis. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+ 
