@@ -1,5 +1,7 @@
 <h1>Predicting Cardiovascular Disease</h1>
-(view our final prediction app <a href="https://heartdiseaseprediction.herokuapp.com/">here</a>.)
+(original repository located <a href="https://github.com/Brybtb/Final_Project">here</a>)
+<br><br>
+Click <a href="https://heartdiseaseprediction.herokuapp.com/">here</a> to view our final prediction application.
 <br>
 <h3>Introduction</h3>
 <ul>
