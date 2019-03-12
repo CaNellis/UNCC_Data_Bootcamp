@@ -3,9 +3,8 @@ by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 
 <h3>Part 1: Locating and defining our Dataset:</h3>
 <ul>
-<li>The dataset used in this analysis was located by searching Google's web search engine for "public data", then navigating to data.gov and viewing their most popular datasets that were geographically relevant.</li>
-<li>The dataset describes Age-Adjusted Death Rates for the Top 10 Leading Causes of Death in the United States (by state) over 17 years.</li>
-<li>The dataset is metadata created by the National Center for Health Statistics (updated on 08/20/18). It was created using combined sources from DC/NCHS, National Vital Statistics System, mortality data, and CDC WONDER. We felt the data was reliable because it was created by a federal agency using various federal agencies' datasets.</li>
+<li>The dataset used in this analysis was located by searching Google's web search engine for "public data", then navigating to data.gov and viewing their most popular datasets that were geographically relevant. It describes Age-Adjusted Death Rates for the Top 10 Leading Causes of Death in the United States (by state) over 17 years. The dataset is metadata created by the National Center for Health Statistics (updated on 08/20/18). It was created using combined sources from DC/NCHS, National Vital Statistics System, mortality data, and CDC WONDER. We felt the data was reliable because it was created by a federal agency using various federal agencies' datasets.</li>
+Br>
 <li>The main variables involved in our dataset:
 <ul>
 <li>Year: from 1999-2016</li>
@@ -16,6 +15,7 @@ by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 rates (per 100,000 people) are based on Census U.S. standard population</li>
 </ul>
 </li>
+<br>
 <li>Our Questions and Hypotheses for analysis:
 <ul>
 <li> Question 1: How do North Carolina's death rates compare to the entire US?</li>
@@ -27,7 +27,7 @@ rates (per 100,000 people) are based on Census U.S. standard population</li>
 </ul>
 </li>
 
-<h3> Part 2: Creating the project on Github <h3>
+<h3> Part 2: Creating the project on Github </h3>
 <ul>
 <li>Created Github Repository</li>
 <li>Uploaded Dataset</li>
@@ -36,7 +36,7 @@ rates (per 100,000 people) are based on Census U.S. standard population</li>
 <li>Developed a plan for our general process and division of tasks in a google doc</li>
 </ul>
 
-<h3> Part 3: Cleaning the Data <h3>
+<h3> Part 3: Cleaning the Data </h3>
 <ul>
 <li>1. import dependencies and read file</li>
 <li>2. Ensure that "Deaths" and "age-adjusted rates" are numerical data types</li>
@@ -51,105 +51,28 @@ rates (per 100,000 people) are based on Census U.S. standard population</li>
 <h3>Part 4: Data Analysis</h3>
 <ul>
 <li>We imported the following modules for our analysis: using pandas, matplotlib, numpy and scipy.stats </li>
+<li> Analysis Part 1: Looking at NC vs. USA causes of death in 2016
+<ul>
+<li>We first created a dataframe for each cause of death's percentage of total deaths for the entire USA in 2016, then we created a pie chart to visualize the data.The pie chart emphasized that Heart Disease and Cancer made up more than half of all USA deaths in 2016.
+It's important to note that most USA deaths in 2016 were due to chronic, long-term illnesses rather than causes related to communicable diseases (like HIV/AIDS), malnutrition, or neonatal death. This alone can lead us to postulate that the USA is a more developed, higher-income country.</li>
+<li>After that, we created a new dataframe and pie chart to look at each cause of death's percentage of total deaths for North Carolina in 2016.The NC 2016 pie chart was extremely similar to the USA pie chart, specifically in that Cancer and Heart Disease are the main causes of death in both.This suggests that there are no major discrepencies in health between NC and the entire USA.</li>
+</ul>
+</li>
+<li>Analysis Part 2: Change in Death Rates Over Time
+<ul>
+<li> For this part of the analysis, we first created a connected scatter plot to visualize change in total death rates in NC vs. USA over 17 years. The plot showed that death rates in both NC and the entire USA decreased over time (as expected). It also suggested that the death rate in NC has been consistently a bit higher than the USA. Interestingly, there was a large decrease in the US between 2014-2016.Specifically, morality in the USA decreased 42.14% between 1999 and 2016 and morality in NC decreased 19.25% between 1999 and 2016. Thus, while both death rates decreased over time, the death rate for the entire USA decreased about 20% more than North Carolina.</li>
+<li> Based on the top 3 leading casues of death shown in the initial pie charts (and an interest in change in suicide rates), we then created connected scatter plots for those specific causes of deaths over time. While Heart Disease and Cancer still accounted for more than half of the USA's causes of death in 2016, both appear to decrease over time. Unintentional injuries and suicide appear to slightly increase over time. Further analysis is needed determine if the increases or decreases are statistically significant, but it is apparent that unintentional injuries and suicide did not decrease in the same way that Cancer and Heart Disease did.</li>
+</ul>
+</li>
+<li>Analysis Part 3: Compare Regional Death for 2016
+<ul>
+<li>To visualize regional comparisons of all Death Rates, we created a bar chart and a boxplot. We used the U.S. Census Bureau's regional classifications (source 3). The bar chart showed that the South had the highest regional average death rate in 2016, followed by the Midwest, the Northeast, and the West with the lowest average death rate of the four regions.The boxplot revealed that the Midwest has the closest average AADR to the entire USA, and that the South is the least similar in 2016.</li>
+<li>Then, to visualize regional comparisons of Average Death Rates due to suicide in 2016, we created another bar chart and another boxplot using the same regional classifications.The bar chart showed that the West had the highest AADR due to suicide, followed by Midwest, South, and the Northeast with the lowest AADR due to suicide. The boxplot revealed that the Midwest has the closest average suicide AADR to the entire USA, and that the West is the least similar in 2016.</li>
+</ul>
+</li>
 </ul>
 
-Analysis Part 1: Looking at NC vs. USA causes of death in 2016
-We first created a dataframe for each cause of death's percentage of total deaths for the entire USA, then we created a pie chart to visualize the data.
-In [103]:
-# calculate percentages for causes of death in USA in 2016
-# Create and plot pie Chart for causes of death in USA in 2016
-
-The pie chart emphasizes that Heart Disease and Cancer made up more than half of all USA deaths in 2016.
-It's important to note that most USA deaths in 2016 were due to chronic, long-term illnesses rather than causes related to communicable diseases (like HIV/AIDS), malnutrition, or neonatal death. This alone can lead us to postulate that the USA is a more developed, higher-income country.
-After that, we created a new dataframe and pie chart to look at each cause of death's percentage of total deaths for North Carolina.
-In [104]:
-# calculate percentages for causes of death in NC in 2016​
-# Create and plot pie Chart to display causes of death in NC in 2016
-
-The NC 2016 pie chart was extremely similar to the USA pie chart, specifically in that Cancer and Heart Disease are the main causes of death in both.
-This suggests that there are no major discrepencies in health between NC and the entire USA.
-
-Analysis Part 2: Change in Death Rates Over Time
-For this part of the analysis, we created a connected scatter plot to Visualize Change in Total Death Rates in NC vs. USA over 17 Years
-In [105]:
-# create line graph to display change in NC and US total death rates over 17 years
- 
-
-The plot shows that death rates in both NC and the entire USA decreased over time (as expected). It also shows that the death rate in NC has been consistently a bit higher than the USA. Interestingly, there was a large decrease in the US between 2014-2016.
-
-Specifically, morality in the USA decreased 42.14% between 1999 and 2016 and morality in NC decreased 19.25% between 1999 and 2016
-
-Thus, while both death rates decreased over time, the death rate for the entire USA decreased about 20% more than North Carolina.
-
-Based on the top 3 leading casues of death shown in the initial pie charts (and an interest in change in suicide rates), we created connected scatter plots for those specific causes of deaths over time
-
-
-
-
-
-While Heart Disease and Cancer still accounted for more than half of the USA's causes of death in 2016, both appear to decrease over time. Unintentional injuries and suicide appear to slightly increase over time.
-Further analysis is needed determine if the increases or decreases are statistically significant, but it is apparent that unintentional injuries and suicide did decrease in the same way that Cancer and Heart Disease did.
-
-Analysis Part 3: Compare Regional Death for 2016
-To visualize regional comparisons of all Death Rates, we created a bar chart and a boxplot.
-We used the U.S. Census Bureau's regional classifications (source 3).
- 
-
-
-In [108]:
-stats.f_oneway(group4, group4)
-Out[108]:
-F_onewayResult(statistic=0.0, pvalue=1.0)
-In [109]:
-stats.f_oneway(group1, group4)
-Out[109]:
-F_onewayResult(statistic=0.06216734699181595, pvalue=0.803940256239512)
-In [110]:
-stats.f_oneway(group2, group4)
-Out[110]:
-F_onewayResult(statistic=3.171595574428924, pvalue=0.08016611540091793)
-In [111]:
-stats.f_oneway(group3, group4)
-Out[111]:
-F_onewayResult(statistic=8.890991325889177, pvalue=0.004011235026270102)
-In [112]:
-stats.f_oneway(group5, group4)
-Out[112]:
-F_onewayResult(statistic=4.387165929330076, pvalue=0.040303790198210225)
-
-The bar chart shows that the South had the highest regional average death rate in 2016, followed by the Midwest, the Northeast, and the West with the lowest average death rate of the four regions.
-
-The boxplot reveals that the Midwest has the closest average AADR to the entire USA, and that the South is the least similar in 2016.
-To visualize regional comparisons of Average Death Rates due to suicide in 2016, we created a bar chart and a boxplot.
-
-
-To visualize regional comparisons of Suicide Death Rates, we created a bar chart and a boxplot.
-We used the U.S. Census Bureau's regional classifications (source 3).
-
-
-
-In [114]:
-stats.f_oneway(group10, group40)
-Out[114]:
-F_onewayResult(statistic=0.018437992705091527, pvalue=0.892437121344818)
-In [115]:
-stats.f_oneway(group20, group40)
-Out[115]:
-F_onewayResult(statistic=3.937596483484301, pvalue=0.05195636841508142)
-In [116]:
-stats.f_oneway(group30, group40)
-Out[116]:
-F_onewayResult(statistic=1.1451781071385145, pvalue=0.2884588441692934)
-In [117]:
-stats.f_oneway(group50, group40)
-Out[117]:
-F_onewayResult(statistic=8.184393763227844, pvalue=0.005752079483635979)
-
-The bar chart shows that the West had the highest AADR due to suicide, followed by Midwest, South, and the Northeast with the lowest AADR due to suicide.
-The boxplot reveals that the Midwest has the closest average suicide AADR to the entire USA, and that the West is the least similar in 2016.
-
-
-Part 5: Observations and Conclusions
+<h3>Part 5: Observations and Conclusions</h3>
 Reflecting on initial Questions and Hypotheses:
 1. How do North Carolina's death rates compare to the entire US?
 Hypothesis: North Carolina has higher death rates than the US.
