@@ -14,7 +14,7 @@ by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 <li>Number of Deaths: based on the number of resident death certificates filed</li>
 <li>Age-adjusted Death Rate:Rate that controls for the effects of differences in population age distributions
 rates (per 100,000 people) are based on Census U.S. standard population</li>
-<ul>
+</ul>
 </li>
 <li>Our Questions and Hypotheses for analysis:
 <ul>
