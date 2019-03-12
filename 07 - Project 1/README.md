@@ -51,25 +51,25 @@ rates (per 100,000 people) are based on Census U.S. standard population</li>
 <h3>Part 4: Data Analysis</h3>
 <ul>
 <li>We imported the following modules for our analysis: using pandas, matplotlib, numpy and scipy.stats </li>
-<li> Analysis Part 1: Looking at NC vs. USA causes of death in 2016
+  
+<h5> Analysis Part 1: Looking at NC vs. USA causes of death in 2016</h5>
 <ul>
 <li>We first created a dataframe for each cause of death's percentage of total deaths for the entire USA in 2016, then we created a pie chart to visualize the data.The pie chart emphasized that Heart Disease and Cancer made up more than half of all USA deaths in 2016.
 It's important to note that most USA deaths in 2016 were due to chronic, long-term illnesses rather than causes related to communicable diseases (like HIV/AIDS), malnutrition, or neonatal death. This alone can lead us to postulate that the USA is a more developed, higher-income country.</li>
 <li>After that, we created a new dataframe and pie chart to look at each cause of death's percentage of total deaths for North Carolina in 2016.The NC 2016 pie chart was extremely similar to the USA pie chart, specifically in that Cancer and Heart Disease are the main causes of death in both.This suggests that there are no major discrepencies in health between NC and the entire USA.</li>
 </ul>
-</li>
-<li>Analysis Part 2: Change in Death Rates Over Time
+ 
+<h5>Analysis Part 2: Change in Death Rates Over Time</h5>
 <ul>
 <li> For this part of the analysis, we first created a connected scatter plot to visualize change in total death rates in NC vs. USA over 17 years. The plot showed that death rates in both NC and the entire USA decreased over time (as expected). It also suggested that the death rate in NC has been consistently a bit higher than the USA. Interestingly, there was a large decrease in the US between 2014-2016.Specifically, morality in the USA decreased 42.14% between 1999 and 2016 and morality in NC decreased 19.25% between 1999 and 2016. Thus, while both death rates decreased over time, the death rate for the entire USA decreased about 20% more than North Carolina.</li>
 <li> Based on the top 3 leading casues of death shown in the initial pie charts (and an interest in change in suicide rates), we then created connected scatter plots for those specific causes of deaths over time. While Heart Disease and Cancer still accounted for more than half of the USA's causes of death in 2016, both appear to decrease over time. Unintentional injuries and suicide appear to slightly increase over time. Further analysis is needed determine if the increases or decreases are statistically significant, but it is apparent that unintentional injuries and suicide did not decrease in the same way that Cancer and Heart Disease did.</li>
 </ul>
-</li>
-<li>Analysis Part 3: Compare Regional Death for 2016
+
+<h5>Analysis Part 3: Compare Regional Death for 2016</h5>
 <ul>
 <li>To visualize regional comparisons of all Death Rates, we created a bar chart and a boxplot. We used the U.S. Census Bureau's regional classifications (source 3). The bar chart showed that the South had the highest regional average death rate in 2016, followed by the Midwest, the Northeast, and the West with the lowest average death rate of the four regions.The boxplot revealed that the Midwest has the closest average AADR to the entire USA, and that the South is the least similar in 2016.</li>
 <li>Then, to visualize regional comparisons of Average Death Rates due to suicide in 2016, we created another bar chart and another boxplot using the same regional classifications.The bar chart showed that the West had the highest AADR due to suicide, followed by Midwest, South, and the Northeast with the lowest AADR due to suicide. The boxplot revealed that the Midwest has the closest average suicide AADR to the entire USA, and that the West is the least similar in 2016.</li>
-</ul>
-</li>
+</ul> 
 </ul>
 
 <h3>Part 5: Observations and Conclusions</h3>
@@ -84,21 +84,20 @@ Conclusion: Overall, death rates appeared to decrease. However, certain causes l
 Hypothesis: The South has a higher average death rate than other USA regions.
 Conclusion: The South does have a slightly higher death rate. However, the West has a higher rate of suicides than other regions.
 
-
-Part 6: Implications of our Analysis
-Why does measuring death rates and death causes matter?
+<h3>Part 6: Implications of our Analysis<h3>
+  <h5>Why does measuring death rates and death causes matter?</h5>
 It helps to evaluate the effectiveness of the United States’s health system.
 It helps to inform us where to focus public health policies, programs, and budgets.
 For example: Because heart disease and cancer constitute over half of the leading causes of death in America and North Carolina, programs and policies that promote healthy lifestyles might be most beneficial in decreasing overall death rates (source 2).
 Furthermore, the increase in death rates due to unintentional injuries and suicide, while constituting a smaller percentage of deaths, suggest the value of increased emphasis on safety policies and mental health services.
-What could we do for future analysis?
+  <h5>What could we do for future analysis?</h5>
 Analyze death rates by other demographic areas such as age group, gender, race/ethnicity
 Analyze cause of death rates of all countries (not just US)
 Use current data to predict future death rates
 Calculate if the changes seen over time are statistically significant
 
 
-Sources:
+<h3>Sources:</h3>
 National Center for Health Statistics. (2018). NCHS - Leading Causes of Death: United States [data file]. Available from Data.CDC.gov website: https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu
 Holland, K. (2017, August 24). What Are the 12 Leading Causes of Death in the United States? Retrieved October 14, 2018, from https://www.healthline.com/health/leading-causes-of-death#2
 United States Census Bureau. (2015, July 28). Geography Atlas - Regions. Retrieved October 13, 2018, from https://www.census.gov/geo/reference/webatlas/regions.html
