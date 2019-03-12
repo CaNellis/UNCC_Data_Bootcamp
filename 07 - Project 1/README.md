@@ -1,4 +1,4 @@
-<h1Analyzing Leading Causes of Death in the U.S.</h1>
+<h1>Analyzing Leading Causes of Death in the U.S.</h1>
 by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 
 <h3>Part 1: Locating and defining our Dataset:<h3>
