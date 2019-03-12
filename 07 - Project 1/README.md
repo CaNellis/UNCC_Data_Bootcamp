@@ -1,7 +1,7 @@
 <h1>Analyzing Leading Causes of Death in the U.S.</h1>
 by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 
-<h3>Part 1: Locating and defining our Dataset:<h3>
+<h3>Part 1: Locating and defining our Dataset:</h3>
 <ul>
 <li>The dataset used in this analysis was located by searching Google's web search engine for "public data", then navigating to data.gov and viewing their most popular datasets that were geographically relevant.</li>
 <li>The dataset describes Age-Adjusted Death Rates for the Top 10 Leading Causes of Death in the United States (by state) over 17 years.</li>
