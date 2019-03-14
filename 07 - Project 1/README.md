@@ -2,8 +2,7 @@
 by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 <br>
 <br>
-*(original repository located <a href="https://github.com/CaNellis/UNCC_Project1">here</a>)*
-<br>
+_(original repository located <a href="https://github.com/CaNellis/UNCC_Project1">here</a>)_
 <br>
 <h3>Part 1: Locating and defining our Dataset:</h3>
 <ul>
