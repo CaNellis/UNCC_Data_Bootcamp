@@ -73,32 +73,41 @@ It's important to note that most USA deaths in 2016 were due to chronic, long-te
 </ul> 
 </ul>
 
-<h3>Part 5: Observations and Conclusions</h3>
-Reflecting on initial Questions and Hypotheses:
-1. How do North Carolina's death rates compare to the entire US?
-Hypothesis: North Carolina has higher death rates than the US.
-Conclusion: Overall, NC is similar to US in death rates (with both having more than half of deaths due to heart disease and cancer)
-2. How do death rates change over time?
-Hypothesis: All death rates decrease over time.
-Conclusion: Overall, death rates appeared to decrease. However, certain causes like unintentional injuries and suicide appeared to have slightly increased. Overall death rates in the US appeared to decrease at a higher rate than NC since 1999, as well as remain lower than NC's overall death rate every year.
-3. Are there regional differences in death rates?
-Hypothesis: The South has a higher average death rate than other USA regions.
-Conclusion: The South does have a slightly higher death rate. However, the West has a higher rate of suicides than other regions.
+<h3>Part 5: Observations and Conclusions from Initial Inquiry</h3>
+  <h4> 1. How do North Carolina's death rates compare to the entire US? </h4>
+  <ul>
+  <li> Hypothesis: North Carolina has higher death rates than the US.</li>
+  <li>Conclusion: Overall, NC is similar to US in death rates (with both having more than half of deaths due to heart disease and cancer)</li>
+  </ul>
+  <h4>2. How do death rates change over time?</h4>
+  <ul>
+  <li>Hypothesis: All death rates decrease over time.</li>
+  <li>Conclusion: Overall, death rates appeared to decrease. However, certain causes like unintentional injuries and suicide appeared to have slightly increased. Overall death rates in the US appeared to decrease at a higher rate than NC since 1999, as well as remain lower than NC's overall death rate every year.</li>
+  </ul>
+  <h4>3. Are there regional differences in death rates?</h4>
+  <ul>
+  <li>Hypothesis: The South has a higher average death rate than other USA regions.</li>
+  <li>Conclusion: The South does have a slightly higher death rate. However, the West has a higher rate of suicides than other regions.</li>
+  </ul>
 
 <h3>Part 6: Implications of our Analysis<h3>
   <h4>Why does measuring death rates and death causes matter?</h4>
-It helps to evaluate the effectiveness of the United States’s health system.
-It helps to inform us where to focus public health policies, programs, and budgets.
-For example: Because heart disease and cancer constitute over half of the leading causes of death in America and North Carolina, programs and policies that promote healthy lifestyles might be most beneficial in decreasing overall death rates (source 2).
-Furthermore, the increase in death rates due to unintentional injuries and suicide, while constituting a smaller percentage of deaths, suggest the value of increased emphasis on safety policies and mental health services.
-  <h4>What could we do for future analysis?</h4>
-Analyze death rates by other demographic areas such as age group, gender, race/ethnicity
-Analyze cause of death rates of all countries (not just US)
-Use current data to predict future death rates
-Calculate if the changes seen over time are statistically significant
-
+  <ul>
+  <li> It helps to evaluate the effectiveness of the United States’s health system.</li>
+  <li>It helps to inform us where to focus public health policies, programs, and budgets. For example: Because heart disease and cancer constitute over half of the leading causes of death in America and North Carolina, programs and policies that promote healthy lifestyles might be most beneficial in decreasing overall death rates (source 2). Furthermore, the increase in death rates due to unintentional injuries and suicide, while constituting a smaller percentage of deaths, suggest the value of increased emphasis on safety policies and mental health services.</li>
+  </ul>
+    
+ <h4>What could we do for future analysis?</h4>
+ <ul>
+ <li> Analyze death rates by other demographic areas such as age group, gender, race/ethnicity </li>
+ <li> Analyze cause of death rates of all countries (not just US) </li>
+ <li> Use current data to predict future death rates </li>
+ <li> Calculate if the changes seen over time are statistically significant </li>
+ </ul>
 
 <h3>Sources:</h3>
-National Center for Health Statistics. (2018). NCHS - Leading Causes of Death: United States [data file]. Available from Data.CDC.gov website: https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu
-Holland, K. (2017, August 24). What Are the 12 Leading Causes of Death in the United States? Retrieved October 14, 2018, from https://www.healthline.com/health/leading-causes-of-death#2
-United States Census Bureau. (2015, July 28). Geography Atlas - Regions. Retrieved October 13, 2018, from https://www.census.gov/geo/reference/webatlas/regions.html
+<ul> 
+<li>National Center for Health Statistics. (2018). NCHS - Leading Causes of Death: United States [data file]. Available from Data.CDC.gov website: https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu</li>
+<li>Holland, K. (2017, August 24). What Are the 12 Leading Causes of Death in the United States? Retrieved October 14, 2018, from https://www.healthline.com/health/leading-causes-of-death#2</li>
+<li>United States Census Bureau. (2015, July 28). Geography Atlas - Regions. Retrieved October 13, 2018, from https://www.census.gov/geo/reference/webatlas/regions.html</li>
+</ul>
