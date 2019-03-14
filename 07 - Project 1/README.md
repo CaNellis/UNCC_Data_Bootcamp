@@ -1,9 +1,10 @@
 <h1>Analyzing Leading Causes of Death in the U.S.</h1>
 by Brian Rhodes, Cassandra Nellis, and Darren Barreto
 <br>
-(original repository located <a href="https://github.com/CaNellis/UNCC_Project1">here</a>)
-<br><br>
-
+<br>
+*(original repository located <a href="https://github.com/CaNellis/UNCC_Project1">here</a>)*
+<br>
+<br>
 <h3>Part 1: Locating and defining our Dataset:</h3>
 <ul>
 <li>The dataset used in this analysis was located by searching Google's web search engine for "public data", then navigating to data.gov and viewing their most popular datasets that were geographically relevant. It describes Age-Adjusted Death Rates for the Top 10 Leading Causes of Death in the United States (by state) over 17 years. The dataset is metadata created by the National Center for Health Statistics (updated on 08/20/18). It was created using combined sources from DC/NCHS, National Vital Statistics System, mortality data, and CDC WONDER. We felt the data was reliable because it was created by a federal agency using various federal agencies' datasets.</li>
