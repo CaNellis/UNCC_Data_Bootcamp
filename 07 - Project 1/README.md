@@ -1,5 +1,8 @@
 <h1>Analyzing Leading Causes of Death in the U.S.</h1>
 by Brian Rhodes, Cassandra Nellis, and Darren Barreto
+<br>
+(original repository located <a href="https://github.com/CaNellis/UNCC_Project1">here</a>)
+<br><br>
 
 <h3>Part 1: Locating and defining our Dataset:</h3>
 <ul>
